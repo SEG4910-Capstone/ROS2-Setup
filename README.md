@@ -8,6 +8,7 @@
 4. Run XLaunch program and run through the default configuration (Disable Access Control) and save the configuration to %userprofile%\Desktop
 5. Run ```docker run -it --net=host -e DISPLAY=[your-ip-address]:0.0 ros:foxy```
     1. For [your-ip-address], do ```ipconfig``` and find the ip of your local machine
+6. After opening a terminal to your docker container, install and setup git as can be found here [Git setup](https://docs.github.com/en/get-started/getting-started-with-git/set-up-git)
 
 Import notes: 
 1. After going through all the ros foxy installation, don't forget to source the setup file. Ideally, input the 
