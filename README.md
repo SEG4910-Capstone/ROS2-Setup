@@ -23,3 +23,10 @@ For ubuntu systems, installing ROS directly on the system is recommended
 ### MacOS
 Follow the installation steps shown here in the github but change out the ros:latest with ros:foxy
 https://gist.github.com/vfdev-5/b7685371071036cb739f23b3794b5b83
+
+#### Mac TroubleShooting
+Trouble connecting to XQuartz:
+* Go to your terminal: xauth list
+* Copy the line corresponding to your IP addy/$DISPLAY value
+* Go back to docker env: install xauth (apt install xauth)
+* xauth add <full line with ip>
